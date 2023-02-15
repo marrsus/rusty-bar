@@ -1,6 +1,6 @@
 use anyhow::Result;
-use cnx::text::{Attributes, Text};
-use cnx::widgets::{Widget, WidgetStream};
+use crate::text::{Attributes, Text};
+use crate::widget::{Widget, WidgetStream};
 use process_stream::{Process, ProcessExt, StreamExt};
 use serde_derive::Deserialize;
 

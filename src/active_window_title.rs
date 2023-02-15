@@ -3,7 +3,7 @@ use futures::stream::StreamExt;
 use xcb_util::ewmh;
 
 use crate::text::{Attributes, Text};
-use crate::widgets::{Widget, WidgetStream};
+use crate::widget::{Widget, WidgetStream};
 use crate::xcb::xcb_properties_stream;
 
 /// Shows the title of the currently focused window.

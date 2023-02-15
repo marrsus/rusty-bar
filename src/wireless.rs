@@ -1,6 +1,6 @@
 use anyhow::Result;
-use cnx::text::{Attributes, Text, Threshold};
-use cnx::widgets::{Widget, WidgetStream};
+use crate::text::{Attributes, Text, Threshold};
+use crate::widget::{Widget, WidgetStream};
 use iwlib::*;
 use std::time::Duration;
 use tokio::time;

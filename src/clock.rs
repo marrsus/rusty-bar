@@ -5,7 +5,7 @@ use tokio_stream::wrappers::IntervalStream;
 use tokio_stream::StreamExt;
 
 use crate::text::{Attributes, Text};
-use crate::widgets::{Widget, WidgetStream};
+use crate::widget::{Widget, WidgetStream};
 
 /// Shows the current time and date.
 ///

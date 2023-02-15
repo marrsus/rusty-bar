@@ -4,7 +4,7 @@ use std::cmp::Ordering;
 use xcb_util::ewmh;
 
 use crate::text::{Attributes, PagerAttributes, Text};
-use crate::widgets::{Widget, WidgetStream};
+use crate::widget::{Widget, WidgetStream};
 use crate::xcb::xcb_properties_stream;
 
 /// Shows the WM's workspaces/groups.

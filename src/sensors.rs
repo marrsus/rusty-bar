@@ -1,7 +1,6 @@
 use anyhow::{anyhow, Context, Result};
-#[cfg(target_os = "linux")]
-use cnx::text::{Attributes, Text};
-use cnx::widgets::{Widget, WidgetStream};
+use crate::text::{Attributes, Text};
+use crate::widget::{Widget, WidgetStream};
 use regex::Regex;
 use std::collections::HashMap;
 use std::process::Command;
