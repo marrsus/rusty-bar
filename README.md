@@ -1,6 +1,6 @@
 # rusty-bar - not ready yet
 
-A simple CNX based bar for X11
+A simple [CNX](https://github.com/mjkillough/cnx) based bar for X11
 
 ### until i am ready i recommend you take a look at:
 #### rust bars 
